@@ -1,0 +1,21 @@
+@media (min-width:1536px) {
+    .sidebar{
+        width: 480px;
+    }
+}
+@media (max-width:1536px) {
+    .sidebar{
+        width: 32.955%;
+        ;
+    }
+}
+@media (max-width:1023px) {
+    .sidebar{
+        width: 300px;
+    }
+}
+@media (max-width:1440px) {
+    .sidebar{
+        
+    }
+}
