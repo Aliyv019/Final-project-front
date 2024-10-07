@@ -1,21 +1,25 @@
 @media (min-width:1536px) {
-    .sidebar{
+    .sidebar,.profile{
         width: 480px;
     }
+
 }
 @media (max-width:1536px) {
-    .sidebar{
+    .sidebar,.profile{
         width: 32.955%;
-        ;
     }
 }
 @media (max-width:1023px) {
-    .sidebar{
+    .sidebar,.profile{
         width: 300px;
     }
 }
-@media (max-width:1440px) {
-    .sidebar{
-        
+@media (max-width:425px) {
+    .sidebar,.profile{
+        width: 100%;
+    }
+    .profile{
+        left:0;
+        bottom: 0;
     }
 }
